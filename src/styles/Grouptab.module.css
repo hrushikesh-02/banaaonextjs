@@ -1,0 +1,19 @@
+.groupMain {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftGroup {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.groupButton {
+  background-color: #edeef0;
+  border-radius: 50px;
+  padding: 0;
+  padding: 0rem 1rem;
+  border: none;
+}

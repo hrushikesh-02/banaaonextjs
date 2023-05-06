@@ -1,0 +1,158 @@
+.navMain {
+  background-color: #ffffff;
+  padding: 1rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.419);
+  box-shadow: rgba(0, 0, 0, 0.6) -0px 3px 10px -5px;
+  margin: 0;
+  z-index: 10;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  box-sizing: border-box;
+}
+
+.searchIcon {
+  border-radius: 100px 0px 0px 100px;
+  padding: 0.5rem;
+
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  border-radius: 0px 100px 100px 0px;
+  border: none;
+  background-color: #f2f2f2;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+
+.modalMain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 1rem;
+  /* align-items: center; */
+}
+
+.modalTop {
+  background-color: #effff4;
+  color: green;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+}
+
+.closeBtn {
+  position: absolute;
+  right: -15px;
+  top: -50px;
+  background-color: #e0e0e0;
+  color: black;
+  border-radius: 100px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+
+.modalTitle {
+  background-color: white;
+  padding: 0rem 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.modalEntry {
+  display: flex;
+  background-color: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.modalLeftSection,
+.modalRightSection {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalLeftSection {
+  width: 130%;
+}
+
+.modalRightSection {
+  justify-content: space-between;
+}
+
+.imageHolder {
+  position: relative;
+}
+
+.modalInput {
+  border: 1px solid #d9d9db;
+  padding: 0.5rem 0.5rem;
+}
+
+.createButton {
+  margin-top: 1rem;
+  border-radius: 100px;
+  width: 100%;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  background-color: #2f6ce5;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginButton {
+  padding: 0.5rem 0.5rem;
+  border: 1px solid #d9d9db;
+
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.forgotButton {
+  margin-top: 1rem;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .navMain {
+    display: none;
+  }
+}
