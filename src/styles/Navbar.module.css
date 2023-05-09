@@ -153,6 +153,32 @@
 
 @media only screen and (max-width: 1000px) {
   .navMain {
+    /* display: none; */
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+  }
+  .search {
+    display: none;
+  }
+
+  .modalMain {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .modalEntry {
+    border-radius: 0;
+  }
+
+  .closeBtn {
+    right: 10px;
+  }
+
+  .modalRightSection {
     display: none;
   }
 }
